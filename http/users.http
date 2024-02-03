@@ -1,0 +1,15 @@
+GET http://localhost:3000/users/?limit=10
+
+### get user by id
+GET http://localhost:3000/users/101
+
+### salvar usuario
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "first_name": "Dhiego Hendrix",
+    "last_name": "Atencio",
+    "email": "dhiego@gmail.com",
+    "about": "meu about"
+}
